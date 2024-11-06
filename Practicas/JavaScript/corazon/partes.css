@@ -1,0 +1,220 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.heart {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.piece {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+.piece1 {
+  top: 0;
+  left: 25px;
+  background-color: #c81e32;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  transform-origin: bottom right;
+}
+
+.piece11 {
+  position: absolute;
+  top: 120px;
+  left: -15px;
+  width: 55%;
+  height: 100px;
+  background-color: #c81e32;
+  border-radius: 100% 10% 100% 0% / 70% 100% 0% 20%;
+  transform: rotate(0deg);
+  transform-origin: bottom right;
+}
+
+.piece111 {
+  position: absolute;
+  top: 150px;
+  left: 130px;
+  width: 40px;
+  height: 40px;
+  background-color: #c81e32;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(0deg);
+  transform-origin: bottom right;
+}
+
+.piece2 {
+  position: relative;
+  top: 0;
+  left: 100px;
+  background-color: #9bcf4e;
+  border-radius: 50% 50% 0 50%;
+  transform: rotate(45deg);
+  transform-origin: bottom left;
+}
+
+.piece22 {
+  position: absolute;
+  top: 10px;
+  left: 340px;
+  width: 66%;
+  height: 110px;
+  background-color: #9bcf4e;
+  border-radius: 100% 0% 47% 53% / 48% 33% 67% 52%;
+  transform: rotate(180deg);
+  transform-origin: bottom left;
+}
+
+.piece222 {
+  position: absolute;
+  top: 170px;
+  left: 270px;
+  width: 40px;
+  height: 40px;
+  background-color: #9bcf4e;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(180deg);
+  transform-origin: bottom left;
+}
+
+.piece3 {
+  position: absolute;
+  bottom: -79px;
+  left: -5px;
+  width: 60%;
+  height: 130px;
+  background-color: #fee25e;
+  border-radius: 50% 0 0 50%;
+  transform: rotate(43deg);
+  transform-origin: top right;
+}
+
+.piece33 {
+  position: absolute;
+  bottom: -79px;
+  left: 5px;
+  width: 60%;
+  height: 130px;
+  background-color: #fee25e;
+  border-radius: 51% 49% 47% 53% / 70% 100% 0% 30%;
+  transform: rotate(47deg);
+  transform-origin: top right;
+}
+
+.piece333 {
+  position: absolute;
+  top: 67%;
+  left: 7%;
+  width: 40px;
+  height: 40px;
+  background-color: #fee25e;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(45deg);
+}
+
+.piece4 {
+  position: absolute;
+  bottom: -50px;
+  left: 155px;
+  width: 62px;
+  height: 50px;
+  background-color: #f6b5b5;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #f6b5b5;
+  border-radius: 0 0 0% 0;
+  transform: rotate(45deg);
+  transform-origin: top left;
+}
+
+.piece444 {
+  position: absolute;
+  top: 96%;
+  left: 30%;
+  width: 40px;
+  height: 40px;
+  background-color: #f6b5b5;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(45deg);
+}
+
+.piece5 {
+  position: absolute;
+  top: 48%;
+  left: 68%;
+  width: 120px;
+  height: 180px;
+  background-color: white;
+  border-radius: 100% 88% 0% 0;
+  transform: rotate(45deg);
+}
+
+.piece55 {
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  width: 120px;
+  height: 180px;
+  background-color: white;
+  border-radius: 100% 88% 0% 0;
+  transform: rotate(45deg);
+}
+
+.piece555 {
+  position: absolute;
+  top: 92%;
+  left: 53%;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50% 60% 50% 50%;
+  transform: rotate(45deg);
+}
+
+.text {
+  position: absolute;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.amor {
+  top: 47%;
+  left: 12%;
+  transform: rotate(-30deg);
+}
+
+.tolerancia {
+  top: 47%;
+  left: 64%;
+  transform: rotate(10deg);
+}
+
+.compañerismo {
+  top: 77%;
+  left: -3%;
+  transform: rotate(6deg);
+}
+
+.paz {
+  top: 85%;
+  left: 78%;
+  transform: rotate(-13deg);
+}
+
+.solidaridad {
+  top: 110%;
+  left: 35%;
+  transform: rotate(-10deg);
+}
